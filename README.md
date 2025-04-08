@@ -36,5 +36,5 @@ Design: [Figma Link](https://www.figma.com/design/7alBwBGWoQmzbtYA2Cuyd9/Home-Io
 ## Member
 * PM: 강동성 
 * Server: 강동성 
-* WEB Front: 강동성 <
+* WEB Front: 강동성 
 * UI/UX Design: 강동성 
