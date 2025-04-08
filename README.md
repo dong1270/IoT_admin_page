@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# 📊HOME IoT 어드민 페이지 (FRONT-END)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Demo
+![Demo.png](./Demo.png)
 
-In the project directory, you can run:
+Design: [Figma Link](https://www.figma.com/design/7alBwBGWoQmzbtYA2Cuyd9/Home-IoT-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80?node-id=0-1&t=upcgX2eDgGaTdXEg-1)
 
-### `npm start`
+## Environment
+* OS    : MacOS
+* SKILL : 
+    - LANGUAGE &ensp;: NodeJS, JAVASCRIPT
+    - LIBRARY &emsp; &ensp;: REACTJS, AXIOS, Crypto-JS
+    - DOCS &emsp; &emsp; &ensp;: HTML5, CSS3
+    - DB &emsp; &emsp; &emsp; &ensp; : MariaDB
+* Tools : Figma, VSCode
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
+나만의 스마트홈을 구축하기 위한 프로젝트 HOME IoT의 데이터를 관리하기 위한 어드민 페이지
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<span style="color:#4C486B"> **대시보드 페이지** </span>: 전체 데이터 모니터링 페이지 <br>
+<span style="color:#4C486B"> **사용자 관리 페이지** </span>: 사용자 관리를 위한 페이지 <br>
+<span style="color:#4C486B"> **세부 데이터 페이지** </span>: 센서, 구동기 등 데이터 분석 페이지<br>
+<span style="color:#4C486B"> **장치 관리 페이지** </span>: 신규 장치 추가, 기존 장비 수정, 단종 장비 삭제 등 관리 페이지 <br>
+<span style="color:#4C486B"> **보고서 페이지** </span>: 장비 오류, 사용량, 성능 분석을 위한 보고서 페이지<br>
+<span style="color:#4C486B"> **로그 페이지** </span>: 장비 오류 로그 페이지<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Development Period
+* 전체기간 : 2025.03.31(월) ~ 진행 중
+* 소프트웨어 설계 : 2025.03.24 ~ 2025.03.28
+    * 데이터베이스 설계 &emsp;: 2025.03.24 ~ 2025.03.26
+    * 페이지 디자인 &emsp; &emsp;&ensp;: 2025.03.25 ~ 2025.03.28
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Member
+* PM: 강동성 
+* Server: 강동성 
+* WEB Front: 강동성 <
+* UI/UX Design: 강동성 
