@@ -38,3 +38,6 @@ Design: [Figma Link](https://www.figma.com/design/7alBwBGWoQmzbtYA2Cuyd9/Home-Io
 * Server: 강동성 
 * WEB Front: 강동성 
 * UI/UX Design: 강동성 
+
+---
+**presentation** : [slide](https://www.figma.com/deck/iMbQMwcXkiPqja61dQ9PTJ/Untitled?node-id=3-151&t=upcgX2eDgGaTdXEg-1)

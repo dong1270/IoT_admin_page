@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       {
+        // 로그인 상태 확인
         login ? <Main loginToken={login}/> : <Login loginToken/>
-
       }
     </div>
   );

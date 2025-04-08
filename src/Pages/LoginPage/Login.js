@@ -12,15 +12,18 @@ function Login() {
     const [pw, setPw] = useState({});
     const dotEnv = process.env;
 
+    // 화면 이동
     const navigate = () => {
         window.location.href = "";
     }
 
+    // 로그인 api 요청
     const loginAction = (info) => {
-        axios.post('http://localhost:4000/auth', info)
+        axios.post(dotEnv.REACT_APP_API_URL + '/auth', info)
         .then((res) => {
             if(res.data.msg === 'success' && res.data.userRole === "admin")
             {
+                // 쿠키에 정보 저장
                 setCookie("user-uid", res.data.userUid, {path: '/'});
                 setCookie("user-id", res.data.userId, {path: '/'});
                 setCookie("user-name", res.data.userName, {path: '/'});
@@ -39,10 +42,12 @@ function Login() {
         });
     }
 
+    // 엔터키 인식
     const enterKeyHandler = (e) => {
         if(e.key === 'Enter') auth();
     }
 
+    // 로그인 + 비밀번호 해시 암호화 함수 
     const auth = () => {
         const passwd = pw.value;
         const hashPw = sha256(dotEnv.REACT_APP_NONCE + passwd);
