@@ -1,0 +1,132 @@
+.logo-zone {
+    background-color: #4C486B;
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-logo {
+
+    color: white;
+    font-size: 3vw;
+}
+
+.logo-zone :hover {
+    animation: rotate_logo 1s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate_logo {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.login-title {
+    font-size: 4vw;
+}
+
+.login-zone {
+    height: 100vh;
+    width: 100%;
+    /* background-color: #4C486B; */
+}
+
+.login-frame {
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px 0 0 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-input {
+    border: lightgray solid 1px;
+    border-radius: 7px;
+    width: 20vw;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.login-submit {
+    background-color: #8B88A5;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-submit:hover {
+    background-color: #4C486B;
+    color: aliceblue;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.login-contents {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.contents-box {
+    width: 25vw;
+}
+
+
+@media (max-width: 430px) {
+    .main {
+        display: block;
+
+        background-color: #4C486B;
+    }
+    .logo-zone {
+        width: 100vw;
+        height: 15vh;
+    }
+
+    .body-logo {
+        font-size: 10vw;
+    }
+
+    .login-input {
+        width: 60vw;
+    }
+
+    .contents-box {
+        width: 60vw;
+    }
+    .login-title {
+        font-size: 10vw;
+    }
+
+    .login-zone {
+        height: 90vh;
+        width: 100vw;
+    }
+    .login-frame {
+        height: 90vh;
+        width: 100vw;
+        background-color: white;
+        border-radius: 15px 15px 0 0;
+    }
+
+}

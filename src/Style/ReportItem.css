@@ -1,0 +1,42 @@
+.report-item {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 55px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(62, 62, 62, 19), 0 3px 3px rgba(62, 62, 62, 22);
+}
+
+.select-item {
+    display: flex;
+    width: 97%;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.report-num {
+    width: 40px;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.report-name {
+    width: 50%;
+    margin-left: 15px;
+}
+
+.report-date {
+    width: 45%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.report-del {
+
+    width: 40px;
+}

@@ -1,0 +1,16 @@
+{
+    "OverViewData": [
+        {
+            "data": "test1",
+            "type": "Sensor"
+        }, 
+        {
+            "data": "test2",
+            "type": "BarChart"
+        }, 
+        {
+            "data": "test3",
+            "type": "LineChart"
+        }
+    ]
+}

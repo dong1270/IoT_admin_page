@@ -1,0 +1,17 @@
+.card {
+    width: 29em;
+    height: 17em;
+    background-color: #f7f7f7;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    margin-right: 30px;
+    border: none;
+    box-shadow: 0 2px 9px rgba(62, 62, 62, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 7px 14px rgba(32, 32, 32, 0.5);
+
+    transition: all 1s;
+    cursor: pointer;
+}

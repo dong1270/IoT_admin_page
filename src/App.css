@@ -1,0 +1,253 @@
+body {
+  margin: 0px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main {
+  display: flex;
+  font-family: 'Pretendard-Regular';
+  background-color: #4C486B;
+}
+
+* {
+  font-family: 'Pretendard-Regular';
+}
+
+.contents-item {
+  height: 75vh;
+  overflow-y: auto;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contents-view {
+  margin-top: 50px;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.contents-header {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+.contents-title {
+  width: 100%;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.icon-box {
+  display: flex;
+}
+
+.my-alret > img {
+  width: 30px;
+  height: 30px;
+}
+
+.edit {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+.edit > img {
+  width: 30px;
+  height: 30px;
+}
+
+.edit-none {
+  width: 60px;
+  margin-right: 20px;
+}
+
+/* data-detail & customer */
+
+.drop-wrapper{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+.drop-info {
+  height: 65px;
+  color: white;
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  transition: all 0.35s;
+  background-color: #8B88A5;
+  box-shadow: 0 5px 10px rgba(62, 62, 62, 19), 0 3px 3px rgba(62, 62, 62, 22);
+}
+
+.drop-info-close {
+  border-radius: 15px;
+}
+.drop-info-open {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.drop-info > div {
+  margin-left: 20px;
+}
+
+.drop-icon {
+  width: 30px;
+  height: 15px;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  margin-right: 15px;
+  align-items: start;
+}
+
+.drop-icon > span {
+  display: block;
+  width: 40%;
+  height: 2px;
+  z-index: 2;
+  background-color: white;
+  border-radius: 30px;
+  transition: all 0.35s;
+  position: absolute;
+}
+
+
+.drop-icon-uncheck > span:nth-child(1) {
+  top: 65%;
+  transform: translateY(-50%) rotate(30deg);
+}
+
+.drop-icon-uncheck  > span:nth-child(2) {
+  top: 50%;
+  left: 32%;
+  transform: translateY(50%) rotate(-30deg);
+}
+
+.drop-icon-check > span:nth-child(1) {
+  top: 65%;
+  transform: translateY(-50%) rotate(-30deg);
+}
+
+.drop-icon-check  > span:nth-child(2) {
+  top: 50%;
+  left: 32%;
+  transform: translateY(50%) rotate(30deg);
+}
+
+/* data-detail & customer */
+
+/* Report & log */
+
+.option-var {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.sort-btn {
+  background-color: #8B88A5;
+  color: white;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  font-family: 'Pretendard-Regular';
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(62, 62, 62, 19), 0 3px 3px rgba(62, 62, 62, 22);
+}
+
+.sort-btn:hover {
+  cursor: pointer;
+}
+
+.t-head {
+  display: flex;
+  font-family: 'Pretendard-Regular';
+  font-weight: 600;
+  font-size: large;
+  height: 30px;
+  border-bottom: solid #000 2px;
+}
+
+.list-num {
+  margin-left: 10px;
+  width: 50px;
+}
+
+.list-name {
+  width: 50%;
+}
+
+.list-date {
+  width: 45%;
+}
+
+.list-del {
+  width: 60px;
+}
+
+/* Report & log */
+
+@media (max-width: 1600px) {
+  .contents-title {
+    width: 88%;
+  }
+}
+
+@media (max-width: 960px) {
+  .contents-title {
+    width: 80%;
+  }
+}
+
+
+@media (max-height: 800px) {
+  .contents-item {
+    height: 73vh;
+  }
+  
+}
+
+@media (max-height: 750px) {
+  .contents-item {
+    height: 70vh;
+  }
+  
+}
+
+@media (max-height: 680px) {
+  .contents-item {
+    height: 65vh;
+  }
+  
+}
+
+@media (max-height: 555px) {
+  .contents-item {
+    height: 58vh;
+  }
+  
+}
+
+@media (max-height: 540px) {
+  .contents-item {
+    height: 53vh;
+  }
+  
+}
