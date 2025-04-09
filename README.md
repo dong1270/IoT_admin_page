@@ -40,4 +40,4 @@ Design: [Figma Link](https://www.figma.com/design/7alBwBGWoQmzbtYA2Cuyd9/Home-Io
 * UI/UX Design: 강동성 
 
 ---
-**presentation** : [slide](https://www.figma.com/slides/iMbQMwcXkiPqja61dQ9PTJ/HOME-IoT-admin-page?node-id=1-42&t=pQ59oAP1yFjRWl9j-1)
+**presentation** : [slide](https://www.figma.com/deck/iMbQMwcXkiPqja61dQ9PTJ/HOME-IoT-admin-page?node-id=1-42&t=GCc7EkNqSJgOE0xm-1)
