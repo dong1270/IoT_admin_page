@@ -7,6 +7,7 @@ import Customer from '../Customer/Customer';
 import DataDetail from '../DataDetail/DataDetail';
 import ReportView from '../ReportView/ReportView';
 import LogView from '../LogView/LogView';
+import DeviceList from '../DeviceList/DeviceList';
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
           <Route path='/detail-data' element={<DataDetail/>}/>
           <Route path='/report' element={<ReportView/>}/>
           <Route path='/log' element={<LogView/>} />
+          <Route path='/add-device' element={<DeviceList/>} />
         </Routes>
       </div>
     </div>

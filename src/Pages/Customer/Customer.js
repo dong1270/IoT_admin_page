@@ -62,7 +62,7 @@ function Customer() {
 
   return (
     <div className='contents-view'>
-        <ContentsHeader title="사용자 관리" data="Customer test" useEdit={true}/>
+        <ContentsHeader title="사용자 관리" data="Customer test" useEdit={false}/>
         <div className='option-var'>
           <div className='sort-btn'>정렬</div>
         </div>

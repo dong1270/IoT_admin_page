@@ -49,13 +49,14 @@ function Login() {
 
     // 로그인 + 비밀번호 해시 암호화 함수 
     const auth = () => {
-        const passwd = pw.value;
-        const hashPw = sha256(dotEnv.REACT_APP_NONCE + passwd);
-        const hmacPw = Base64.stringify(
-            HmacSHA512(dotEnv.REACT_APP_PATH + hashPw, dotEnv.REACT_APP_PRIVATE_KEY)
-        );
         if(id.value === "" || pw.value === "")  alert("아이디 혹은 비밀번호가 공백입니다.");
         else{
+            const passwd = pw.value;
+            const hashPw = sha256(dotEnv.REACT_APP_NONCE + passwd);
+            const hmacPw = Base64.stringify(
+                HmacSHA512(dotEnv.REACT_APP_PATH + hashPw, dotEnv.REACT_APP_PRIVATE_KEY)
+            );
+            
             const loginOjt = {
                 "userId": id.value,
                 "userPw": hmacPw
