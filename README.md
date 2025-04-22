@@ -41,3 +41,5 @@ Design: [Figma Link](https://www.figma.com/design/7alBwBGWoQmzbtYA2Cuyd9/Home-Io
 
 ---
 **presentation** : [slide](https://www.figma.com/deck/iMbQMwcXkiPqja61dQ9PTJ/HOME-IoT-admin-page?node-id=1-42&t=GCc7EkNqSJgOE0xm-1)
+
+**updata** : [slide](https://www.figma.com/deck/I94N53GE9mVFHl2j7TG120/Untitled?node-id=1-42&t=ACk4T186rerX9vfk-1)
