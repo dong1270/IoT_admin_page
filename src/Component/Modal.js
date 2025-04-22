@@ -7,11 +7,14 @@ function Modal(props) {
         if(props.init !== null) props.init(null);
     }
     return (
-        <div 
-            className='modal-background'
-            onDragOver={props.background !== null ? props.background[0] : null}
+        <div className='modal-background'
+        
+        onDragLeave={props.background[1]}
         >
-            <div className='modal-frame'>
+            <div 
+                className='modal-frame'
+                onDragOver={props.background[0]}
+            >
                 <div className='modal-header'>
                     <div className='modal-title'>{props.modalTitle}</div>
                     <div className='modal-close' onClick={onClick}>

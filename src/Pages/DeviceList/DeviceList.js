@@ -27,15 +27,26 @@ function DeviceList() {
         event.preventDefault();
         event.stopPropagation();
         event.target.classList.add('modal-drag-enter');
+        // setIsDrag(true);
     }
+
+    const inCursor = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        setIsDrag(true);
+    }
+
     const onDragLeave = (event) => {
         event.preventDefault();
         event.stopPropagation();
+
+        setIsDrag(false);
         Object.values(event.target.classList).forEach(data => {
             if(data === 'modal-drag-enter') 
                 event.target.classList.remove(data);
         })
-        setIsDrag(false);
+        // setIsDrag(false);
+        console.log(isDrag)
     }
 
     const onDragOver = (event) => {
@@ -87,14 +98,18 @@ function DeviceList() {
 
     const addDev = () => {
         return(
-            <div className='add-dev-modal'>
+            <div 
+            className='add-dev-modal' 
+            onDragOver={onDragOver}
+            >
                 {
                     isDrag ?
                     <div className='dev-modal-inner'>
-                        <div className='modal-drag'
-                        onDragEnter={onDragEnter} 
-                        onDragLeave={onDragLeave}
-                        onDrop={onDrop}
+                        <div 
+                            className='modal-drag'
+                            // onDragLeave={onDragLeave}
+                            onDragEnter={onDragEnter} 
+                            onDrop={onDrop}
                         > 
                             Drag & Drop photos here
                         </div>
@@ -158,7 +173,7 @@ function DeviceList() {
                 data={addDev}  
                 modalTitle="장치 추가"
                 useEdit={true}
-                background={[onDragOver]}
+                background={[inCursor, onDragLeave]}
                 init={setImg}
             />
             <hr></hr>
